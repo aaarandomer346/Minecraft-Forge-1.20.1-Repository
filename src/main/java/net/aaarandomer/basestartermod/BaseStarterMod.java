@@ -14,7 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 @Mod(BaseStarterMod.MOD_ID)
-public class BaseStarterMod { // Press Shift+F6 And Then Change Class Name. This Is Normally Your Mod Name But Without Spaces
+public class BaseStarterMod { // Press Shift+F6 And Then Change  Class Name. This Is Normally Your Mod Name But Without Spaces
     public static final String MOD_ID = "basestartermod"; // Change This To The Mod ID For The Mod You're Making
     private static final Logger LOGGER = LogUtils.getLogger();
 
