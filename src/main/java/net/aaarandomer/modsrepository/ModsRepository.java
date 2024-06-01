@@ -1,4 +1,4 @@
-package net.aaarandomer.repository;
+package net.aaarandomer.modsrepository;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,12 +13,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(net.aaarandomer.repository.ModRepository.MOD_ID)
-public class ModRepository {
-    public static final String MOD_ID = "modrepository";
+@Mod(ModsRepository.MOD_ID)
+public class ModsRepository {
+    public static final String MOD_ID = "modsrepository";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ModRepository() {
+    public ModsRepository() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
